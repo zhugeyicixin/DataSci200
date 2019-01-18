@@ -27,7 +27,6 @@
 # for d in days[(days.dayofweek == 1) | (days.dayofweek == 3)]:
 #     print(str(d.month) + "/" + str(d.day) + "/" + str(d.year))
 
-
 - date: 1/22/19
   topic: Course Overview, Motivating/Defining Data Science, Logistics, Study Design
   resources: |
