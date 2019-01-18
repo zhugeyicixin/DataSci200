@@ -15,10 +15,10 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: ["readme.md"]
 highlighter: rouge
 
-title: DS100 Fa18
+title: DS100 Sp19
 tagline: Principles and Techniques of Data Science
 
-baseurl: /fa18
+baseurl: /sp19
 
 sass:
   style: compressed

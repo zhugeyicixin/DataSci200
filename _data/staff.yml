@@ -7,9 +7,18 @@
 - email: ananth.agarwal@berkeley.edu
   image: assets/images/staff_pics/ananth_agarwal.jpeg
   name: Ananth Agarwal
+- email: ashleychien@berkeley.edu
+  image: assets/images/staff_pics/ashleyhchien.png
+  name: Ashley Chien
 - email: daniel.zhu@berkeley.edu
   image: assets/images/staff_pics/daniel_zhu.jpg
   name: Daniel Zhu
+- email: hatim.ezbakhe@berkeley.edu
+  image: assets/images/staff_pics/hatim_ezbakhe.jpg
+  name: Hatim Ezbakhe
+- email: janaki.vivrekar@berkeley.edu
+  image: assets/images/staff_pics/janaki_vivrekar.jpeg
+  name: Janaki Vivrekar
 - email: junseopark@berkeley.edu
   image: assets/images/staff_pics/junseo_park.png
   name: Junseo Park
@@ -19,6 +28,12 @@
 - email: neilshah430@berkeley.edu
   image: assets/images/staff_pics/neil_shah.JPG
   name: Neil Shah
+- email: philippe_boileau@berkeley.edu
+  image: assets/images/staff_pics/philippe_boileau.jpg
+  name: Philippe Boileau
+- email: samirnaqvi@berkeley.edu
+  image: assets/images/staff_pics/samirnaqvi.jpg
+  name: Samir Naqvi
 - email: schaganty@berkeley.edu
   image: assets/images/staff_pics/sasank_chaganty.jpg
   name: Sasank Chaganty
@@ -35,5 +50,5 @@
   image: assets/images/staff_pics/suraj_rampure.png
   name: Suraj Rampure
 - email: lhtonywei@berkeley.edu
-  image: assets/images/staff_pics/tony_hsu.jpg
+  image: assets/images/staff_pics/tony_hsu.jpeg
   name: Tony Hsu
