@@ -27,548 +27,177 @@
 # for d in days[(days.dayofweek == 1) | (days.dayofweek == 3)]:
 #     print(str(d.month) + "/" + str(d.day) + "/" + str(d.year))
 
+- date: 1/22/19
+  topic: Course Overview, Motivating/Defining Data Science, Logistics, Study Design
+  resources: |
+    - [Textbook: Data Science Life Cycle](https://www.textbook.ds100.org/ch/01/lifecycle_intro.html)
+    - [Textbook: Data Design](https://www.textbook.ds100.org/ch/02/design_intro.html)
+  lab: Lab1
+  discussion: Disc1
+  homework: HW1 Released
 
-# - date: 8/23/18
-#   topic: Course Overview, Data Design and Sources of Bias
-#   description: In this lecture we provide an overview of what data science is at its
-#     root and the components that make data science a large field with endless possibilities.
-#     Fundamentally, (data) science is the study of using data to learn about the world
-#     and solve problems. However, how and what data is collected can have a profound
-#     impact on what we can learn and the problems we can solve. Along the way, we will
-#     also touch on what it means to be a data scientist by examining recent surveys
-#     of data scientists. We will begin to explore various mechanisms for data collection
-#     and their implications on our ability to generalize. In particular, we will discuss
-#     differences between censuses, surveys, controlled experiments, and observational
-#     studies and will also highlight the power of simple randomization and the fallacies
-#     of data at scale. Welcome to Data 100!
-#   slides: https://docs.google.com/presentation/d/1Y7sdF-q27CjbGO58gpYcYS9Fgz3PSkZJcXDyOuJqiTQ/edit?usp=sharing
-#   resources: |
-#     - [Demo Notebook](assets/lectures/lec1.zip) (also on Datahub)
-#     - [Textbook: Data Science Life Cycle](https://www.textbook.ds100.org/ch/01/lifecycle_intro.html)
-#     - [Textbook: Data Design](https://www.textbook.ds100.org/ch/02/design_intro.html)
-#     - [Screencast](https://www.youtube.com/watch?v=NplaZECopOs)
-#   discussion: |
-#     - Disc0
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc00/disc00.ipynb)
-#   homework: |
-#     - HW0 Released
-#     - [HW0 Solutions](https://nbviewer.jupyter.org/github/DS-100/fa18/blob/master/hw/hw0/hw0.ipynb)
+- date: 1/24/19
+  topic: Study Design, Pandas
+  resources: |
+    - [Textbook: Tabular Data](https://www.textbook.ds100.org/ch/03/pandas_intro.html)
 
-# - date: 8/28/18
-#   topic: Data Manipulation with Pandas I
-#   description: While data comes in many forms, most data analyses are performed on
-#     tabular data. Mastering the skills of constructing, cleaning, joining, aggregating,
-#     and manipulating tabular data is essential to data science. In this lecture we
-#     will introduce Pandas, the open-source Python data manipulation and analysis library
-#     widely used by data scientists. Through introducing useful Pandas operations and
-#     paradigms, we will also bring to light new concepts including indices, column
-#     operations (and their effect on system performance), grouping operations, and
-#     basic data visualization tools built to accompany Pandas.
-#   lab: |
-#     - Lab1
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab01/lab01_solution.ipynb)
-#   discussion: |
-#     - [Disc1](assets/discussions/disc01.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc01/disc01_solution.pdf)
-#   slides: https://docs.google.com/presentation/d/1qMRtloXaccvJLfyZckn-UpuG0Prb1XtJHLPWQX2OMSo/edit?usp=sharing
-#   resources: |
-#     - [Textbook: Tabular Data](https://www.textbook.ds100.org/ch/03/pandas_intro.html)
-#     - [Demo Notebook](assets/lectures/lec02.zip) (also on Datahub)
-#       1. [Pandas Basics (HTML)](assets/lectures/lec02/02-pandas-basics.nbconvert.html)
-#       2. [Case Study (HTML)](assets/lectures/lec02/02-case-study.nbconvert.html)
-#     - [Screencast](https://www.youtube.com/watch?v=mYEP5QmEHYY)
+- date: 1/29/19
+  topic: Data Tables with Pandas
+  lab: Lab2
+  discussion: Disc2
+  homework: HW1 Due, HW2 Released
 
-# - date: 8/30/18
-#   topic: Data Manipulation with Pandas II
-#   description: Continued discussion of material in the previous lecture.
-#   slides: https://docs.google.com/presentation/d/1FrYg6yd6B-CIgfWLWm4W8vBhfmJ6Qt9dKkN-mlN5AKU/edit?usp=sharing
-#   resources: |
-#     - [Demo Notebook on Datahub](https://data100.datahub.berkeley.edu/hub/home)
-#       1. [Case Study (HTML)](assets/lectures/lec03/03-case-study.html)
-#       2. [Enrollment Exercise (HTML)](assets/lectures/lec03/03-enrollment-exercise.html)
-#       3. [Groupby & Pivot (HTML)](assets/lectures/lec03/03-groupby-and-pivot-basics.html)
-#     - [Screencast](https://www.youtube.com/watch?v=SonWCfrY_ek)
+- date: 1/31/19
+  topic: Data Cleaning
+  resources: |
+    - [Textbook: Data Cleaning](https://www.textbook.ds100.org/ch/04/cleaning_intro.html)
 
-# - date: 9/4/18
-#   topic: Data Cleaning & EDA
-#   description: Whether collected by you or obtained from someone else, raw data is
-#     seldom ready for immediate analysis. Data cleaning is an important skill every
-#     data scientist should master and it starts with understanding key aspects of the
-#     data. Through exploratory data analysis we can often discover important anomalies,
-#     identify limitations in the collection process, and better inform subsequent goal-oriented
-#     analysis. In this lecture we will discuss how to identify and correct common data
-#     anomalies and analyze their implications on future analysis. We will also discuss
-#     key properties of data including structure, granularity, faithfulness, temporality,
-#     and scope; these properties can inform how we prepare, analyze, and visualize
-#     data.
-#   slides: assets/lectures/lec04/04-EDA-and-Cleaning.pdf
-#   lab: |
-#     - Lab2
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab02/lab02_solution.ipynb)
-#   discussion: Lab2
-#   homework: |
-#     - HW0 Due, HW1 Released
-#     - [HW1 Solutions](https://nbviewer.jupyter.org/github/DS-100/fa18/blob/master/hw/hw1/hw1.ipynb)
-#   resources: |
-#     - [Textbook: Data Cleaning](https://www.textbook.ds100.org/ch/04/cleaning_intro.html)
-#     - [Demo Notebook (ZIP)](assets/lectures/lec04/lec04.zip)
-#       1. [Groupby Pivot and Merge (HTML)](assets/lectures/lec04/groupby_pivot_and_merge.html)
-#     - [Screencast](https://www.youtube.com/watch?v=aOZogO1rBak)
+- date: 2/5/19
+  topic: Visualization and EDA I
+  lab: Lab3
+  discussion: Disc3
+  homework: HW2 Due, HW3 Released
+  resources: |
+    - [Textbook: EDA](https://www.textbook.ds100.org/ch/05/eda_intro.html)
 
-# - date: 9/6/18
-#   topic: EDA and Visualization
-#   description: In this lecture we will continue our discussion of EDA and important
-#     features we should be identifying when given a dataset. Along the way, we will
-#     start to work through a real-world exercise in EDA using public crime data for
-#     the city of Berkeley. Through this, we will also introduce tools for data visualization
-#     using Pandas, Seaborn, and Matplotlib.
-#   slides: assets/lectures/lec05/05-EDA-Continued.pptx
-#   resources: |
-#     - [Textbook: EDA](https://www.textbook.ds100.org/ch/05/eda_intro.html)
-#     - [EDA_and_Cleaning notebook (HTML)](assets/lectures/lec05/EDA_and_Cleaning.html)
-#     - [code and data (includes notebooks and scripts as needed)](assets/lectures/lec05/code.zip)
-#     - [Screencast](https://www.youtube.com/watch?v=cSkfvBKi-rw)
+- date: 2/7/19
+  topic: Visualization and EDA II
+  resources: |
+    - [Textbook: Data Visualization](https://www.textbook.ds100.org/ch/06/viz_intro.html)
 
-# - date: 9/11/18
-#   topic: Visualization and Data Transformations
-#   description: A large fraction of the human brain is devoted to visual perception.
-#     As a consequence, visualization is a critical tool in both exploratory data analysis
-#     and the communication of complex relationships in data. However, making informative
-#     and clear visualizations of complex concepts can be challenging. In this lecture
-#     we explore good and bad visualizations and describe how to choose visualizations
-#     for various kinds of data and goals. We will also go into detail on how to identify
-#     issues with certain visualizations and ways to fix these issues to properly convey
-#     the message you are trying to show. However, in some cases, directly visualizing
-#     data can be uninformative. Some examples of these cases include plots with curvilinear
-#     relationships, large numbers of similar observations hiding core trends in the
-#     data, and visualizing data with a large number of variables. In this lecture we
-#     discuss data transformations, smoothing, and dimensionality reduction to address
-#     the challenges in creating informative visualizations. The Tukey-Mosteller Bulge
-#     Diagram will come in handy when talking about transformations and is a great tool
-#     for identifying when data needs to be transformed. With these additional analytics
-#     we can often reveal important and informative patterns in data.
-#   slides: assets/lectures/lec06/06-visualization.pptx
-#   lab: |
-#     - Lab3
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab03/lab03_solution.ipynb)
-#   discussion: |
-#     - [Disc3](https://github.com/DS-100/fa18/blob/master/disc/disc03/disc03.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc03/dis03_solution.pdf)
-#     - [TA Slides](https://docs.google.com/presentation/d/1PzQG3YtC8FLp_aK9KMTpdRiPOldRTKGBTJTMuHMRlL0/edit?usp=sharing)
-#   resources: |
-#     - [Textbook: Data Visualization](https://www.textbook.ds100.org/ch/06/viz_intro.html)
-#     - [Screencast](https://www.youtube.com/watch?v=AwFsWvNVts8)
+- date: 2/12/19
+  topic: Working with Text
+  lab: Lab4
+  discussion: Disc4
+  homework: HW3 Due, HW4 Released
+  resources: |
+    - [Textbook: Working With Text](https://www.textbook.ds100.org/ch/08/text_intro.html)
 
-# - date: 9/13/18
-#   topic: Working with Text
-#   description: Whether in documents, tweets, or records in a table, text data is
-#     ubiquitous and presents a unique set of challenges for data scientists. How
-#     do you extract key phrases from text? What are meaningful aggregate summaries
-#     of text? How do you visualize textual data? In this lecture we will introduce
-#     a set of techniques (e.g. bag-of-words) to transform text into numerical data
-#     for subsequent tabular analysis. We will also introduce regular expressions
-#     as a mechanism for cleaning and transforming text data.
-#   slides: https://docs.google.com/presentation/d/1ECr_XrDJXaLK-eGwWlydLjJu-3xwpzFcV4fGMSfwKwU/edit?usp=sharing
-#   homework: |
-#       - HW1 Due, HW2 Released
-#       - [HW2 Solutions](https://nbviewer.jupyter.org/github/DS-100/fa18/blob/master/hw/hw2/hw2.ipynb)
-#   resources: |
-#     - [Textbook: Working With Text](https://www.textbook.ds100.org/ch/08/text_intro.html)
-#     - [Screencast](https://www.youtube.com/watch?v=7jJlJU7bFe8)
-#     - [code and data (includes notebooks and scripts as needed)](assets/lectures/lec07/code.zip)
+- date: 2/14/19
+  topic: SQL
+  resources: |
+    - [Textbook: SQL](https://www.textbook.ds100.org/ch/09/sql_intro.html)
 
-# - date: 9/18/18
-#   topic: Modeling and Estimation
-#   description: How do we pick a number to represent a dataset? A key step in
-#     data science is developing models that capture the essential signal in
-#     data while providing insight into the phenomena that govern the data and
-#     enable effective prediction. In this lecture we address the fundamental
-#     question of choosing a number and more generally a model that reflects
-#     the data. We will introduce the concept of loss functions and begin to
-#     develop basic models. we will explore how calculus can be used to
-#     analytically and minimize loss functions.
-#   slides: assets/lectures/lec08/08-modeling-and-estimation.pptx
-#   lab: |
-#     - Lab4
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab04/lab04_solution.ipynb)
-#   discussion: |
-#     - [Disc4](https://github.com/DS-100/fa18/blob/master/disc/disc04/disc04.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc04/disc04_solution.pdf)
-#     - [TA Slides](https://docs.google.com/presentation/u/1/d/1jKMDmWBLsS5KkywoYnaBmkuKPMOGNZYhB3ZKdjiTh5M/edit?usp=sharing)
-#   resources: |
-#     - [Textbook: Modeling and Estimation](https://www.textbook.ds100.org/ch/10/modeling_intro.html)
-#     - [Estimation notebook (HTML Version)](assets/lectures/lec08/Estimation.html)
-#     - [convex-functions notebook (HTML Version)](assets/lectures/lec08/convex-functions.html)
-#     - [Screencast](https://www.youtube.com/watch?v=H55b-vAfBOc)
-#     - [code and data (includes notebooks and scripts as needed)](assets/lectures/lec08/code.zip)
+- date: 2/19/19
+  topic: Clustering
+  lab: Lab5
+  discussion: Disc5
+  homework: HW4 Due, Proj1 Released
 
-# - date: 9/20/18
-#   topic: Modeling and Estimation II
-#   description: In this lecture we will continue our development of models
-#     within the framework of loss minimization. In particular, we will explore
-#     how to numerically minimize loss functions. We will also introduce multidimensional
-#     models and define the notion of the gradient of a function. To minimize functions,
-#     we will introduce the widely used gradient descent algorithm.
-#   slides: assets/lectures/lec09/09-modeling-and-estimation-II.pptx
-#   resources: |
-#     - [Textbook: Gradient Descent](https://www.textbook.ds100.org/ch/11/gradient_descent.html)
-#     - [Demo Notebook](assets/lectures/lec09/09-Models-and-Estimation-II.ipynb)
-#       - [HTML Version](assets/lectures/lec09/09-Models-and-Estimation-II.html)
-#     - [Screencast](https://www.youtube.com/watch?v=ks5z4GQg6R0)
+- date: 2/21/19
+  topic: Dimensionality Reduction
+
+- date: 2/26/19
+  topic: Case Study, Review
+  lab: Lab6
+  discussion: Disc6
+
+- date: 2/28/19
+  topic: Midterm 1
+
+- date: 3/5/19
+  topic: Modeling and Estimation
+  lab: Lab7
+  discussion: Disc7
+  homework: Proj1 Due, HW5 Released
+  resources: |
+    - [Textbook: Modeling and Estimation](https://www.textbook.ds100.org/ch/10/modeling_intro.html)
+
+- date: 3/7/19
+  topic: Gradient Descent for Model Estimation
+  resources: |
+    - [Textbook: Gradient Descent](https://www.textbook.ds100.org/ch/11/gradient_descent.html)
 
 
-# - date: 9/25/18
-#   topic: Generalization and Empirical Risk Minimization
-#   description: So far, we have focused on how we can estimate a descriptive
-#     statistic or more generally the parameters of a model that reflects our data.
-#     What does this say about the population? How can we generalize beyond what we
-#     observe? In this lecture we recast our loss minimization approach in the
-#     context of empirical risk minimization. In the process we will review basic
-#     probability concepts including expectation, bias, and variance.
-#   lab: |
-#     - Lab5
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab05/lab05_solution.ipynb)
-#   discussion: |
-#     - [Disc5](https://github.com/DS-100/fa18/blob/master/disc/disc05/disc05.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc05/disc05_solution.pdf)
-#   homework: |
-#     - HW2 Due, HW3 Released
-#     - [HW3 Solutions](https://nbviewer.jupyter.org/github/DS-100/fa18/blob/master/hw/hw3/hw3.ipynb)
-#   slides: assets/lectures/lec10/10-prob-generalization.pptx
-#   resources: |
-#     - [Textbook: Probability and Generalization](https://www.textbook.ds100.org/ch/12/prob_and_gen.html)
-#     - [Screencast](https://www.youtube.com/watch?v=o3EQnGw-RIw)
+- date: 3/12/19
+  topic: Generalization and Empirical Risk Minimization
+  lab: Lab8
+  discussion: Disc8
+  homework: HW5 Due, HW6 Released
+  resources: |
+    - [Textbook: Probability and Generalization](https://www.textbook.ds100.org/ch/12/prob_and_gen.html)
 
-# - date: 9/27/18
-#   topic: Linear Regression and Feature Engineering
-#   description: Linear regression is at the foundation of most machine learning
-#     and statistical methods. We have already introduced linear models in an
-#     informal way; in this lecture we formalize the setup of a linear model as
-#     a parametric description of a dataset whose parameters can be estimated
-#     computationally. We study the normal equations from the perspective of
-#     optimization and discuss some of the computational issues around solving
-#     the normal equations. We will then transition to the task of feature
-#     engineering and describe a range of techniques for transforming data to
-#     enable linear models to fit complex relationships.
-#   slides: assets/lectures/lec11/11-linear_models.pptx
-#   resources: |
-#     - [Textbook: Linear Regression](https://www.textbook.ds100.org/ch/13/linear_models.html)
-#     - [Textbook: Feature Engineering](https://www.textbook.ds100.org/ch/14/feature_engineering.html)
-#     - [Notebook (HTML)](assets/lectures/lec11/11-Linear-Regression-and-Feature-Engineering.html)
-#       - [Notebook (zip)](assets/lectures/lec11/lec11.zip)
-#     - [Screencast](https://www.youtube.com/watch?v=4NRf1RJyJto)
+- date: 3/14/19
+  topic: Linear Regression and Feature Engineering
+  resources: |
+    - [Textbook: Linear Regression](https://www.textbook.ds100.org/ch/13/linear_models.html)
+    - [Textbook: Feature Engineering](https://www.textbook.ds100.org/ch/14/feature_engineering.html)
 
-# - date: 10/2/18
-#   topic: Bias-Variance Tradeoff and Regularization
-#   description: There is a fundamental tension in predictive modeling between
-#     our ability to fit the data and to generalize to the world. In this lecture
-#     we characterize this tension through the tradeoff between bias and variance.
-#     We will derive the bias and variance decomposition of the least squares
-#     objective. We then discuss how to manage this tradeoff by augmenting our
-#     objective with a regularization penalty.
-#   slides: assets/lectures/lec12/12-bias-variance-regularization.pptx
-#   lab: |
-#     - [Lab6](assets/labs/lab06.html)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab06/lab06_solution.ipynb)
-#   discussion: |
-#     - [Disc6](https://github.com/DS-100/fa18/blob/master/disc/disc06/disc06.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc06/disc06_solution.pdf)
-#   resources: |
-#     - [Textbook: Bias-Variance Tradeoff](https://www.textbook.ds100.org/ch/15/bias_intro.html)
-#     - [Notebook (HTML)](assets/lectures/lec12/Bias_Variance_Regularization_Simplified.html)
-#       - [Notebook (zip)](assets/lectures/lec12/code.zip)
-#     - [Screencast](https://www.youtube.com/watch?v=uIzdjhm-7FI)
+- date: 3/19/19
+  topic: Bias-Variance Tradeoff and Regularization
+  lab: Lab9
+  discussion: Disc9
+  homework: HW6 Due, HW7 Released
+  resources: |
+    - [Textbook: Bias-Variance Tradeoff](https://www.textbook.ds100.org/ch/15/bias_intro.html)
 
-# - date: 10/4/18
-#   topic: Cross-Validation and Regularization
-#   description: In this lecture we will recap our discussion of linear
-#     regression by reviewing how to use the scikit learn regression package. We
-#     will then explore the challenges of overfitting and review how
-#     regularization can be used to address overfitting. We will introduce
-#     cross-validation as a mechanism to estimate the test error and to select
-#     the regularization parameters.
-#   slides: assets/lectures/lec13/13-cv_and_regularization.pptx
-#   resources: |
-#     - [Textbook: Regularization](https://www.textbook.ds100.org/ch/16/reg_intro.html)
-#     - [Textbook: Cross-Validation](https://www.textbook.ds100.org/ch/15/bias_cv.html)
-#     - [Bias-Variance and Regularization Notebook (HTML Version)](assets/lectures/lec13/code/Bias_Variance_and_Regularization.html)
-#     - [Feature Engineering Part 1 Notebook (HTML Version)](assets/lectures/lec13/code/FeatureEngineeringPart1.html)
-#     - [Feature_Engineering Part 2 Notebook (HTML Version)](assets/lectures/lec13/code/Feature_Engineering_Part_2.html)
-#     - [Make Toy Data Notebook (HTML Version)](assets/lectures/lec13/code/data/Make Toy Data.html)
-#     - [Screencast](https://www.youtube.com/watch?v=1dIKn177M1g)
+- date: 3/21/19
+  topic: Cross-Validation and Regularization
+  resources: |
+    - [Textbook: Regularization](https://www.textbook.ds100.org/ch/16/reg_intro.html)
+    - [Textbook: Cross-Validation](https://www.textbook.ds100.org/ch/15/bias_cv.html)
 
-# - date: 10/9/18
-#   topic: Ethics
-#   description: Data science is being used in growing number of settings to
-#     make decisions that impact people's lives. In this lecture we will discuss
-#     just a few of the many ethical and legal considerations in the application
-#     of data science to real-world problems. Our guest speaker Joshua Kroll is a
-#     computer scientist and researcher interested in the governance of automated
-#     decision-making systems, especially those built with machine learning. He
-#     is currently a Postdoctoral Research Scholar at UC Berkeley’s School of
-#     Information, working with Deirdre Mulligan. Before that he received a
-#     PhD in Computer Science in the Security Group at Princeton University.
-#     His dissertation on Accountable Algorithms was advised by Edward W.
-#     Felten and supported by the Center for Information Technology Policy
-#     where he studied topics in security, privacy, and technology’s impact
-#     on policy decisions. Joshua was the program chair of this year’s edition
-#     of the successful workshop series “Fairness, Accountability, and
-#     Transparency in Machine Learning (FAT/ML)”.
-#   slides: assets/lectures/lec14/2018-10-09_ethics-in-data-science.pptx
-#   lab: |
-#     - Lab7
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab07/lab07_solution.ipynb)
-#   discussion: |
-#     - [Disc7](https://github.com/DS-100/fa18/blob/master/disc/disc07/disc07.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc07/disc07_sol.pdf)
-#   homework: |
-#     - HW3 Due, Proj1 Released
-#     - [Proj1 Solutions](https://github.com/DS-100/fa18/blob/master/proj/proj1/proj1.ipynb)
-#   resources: |
-#     - [Screencast](https://www.youtube.com/watch?v=AxZDMit8RBY)
+- date: 3/26/19
+  topic: Spring Break
 
-# - date: 10/11/18
-#   topic: Midterm Review Part 1
-#   slides: https://docs.google.com/presentation/d/1NGPIcohNqH1sccpgTg-wnJaxtsiq5W0N2uRj3n-izpM/edit?usp=sharing
-#   description: This lecture will review key topics from the course that
-#     will be covered on the midterm.
-#   resources: |
-#     - [Screencast](https://www.youtube.com/watch?v=pHqBMtmeP-8)
+- date: 3/28/19
+  topic: Spring Break
 
-# - date: 10/16/18
-#   topic: Midterm Review Part 2
-#   slides: https://docs.google.com/presentation/d/1WfxgLNBkscoQEimVmZ__b3PxJxSpkXGflr02zL1eMyw/edit?usp=sharing
-#   description: The midterm will take place on 10/17 from 8-10 PM.
-#   lab: Midterm Review (Lab8)
-#   discussion: Midterm OH
-#   resources: |
-#     - [Screencast](https://www.youtube.com/watch?v=rtVwx-UY3A4)
+- date: 4/2/19
+  topic: Classification and Logistic Regression I
+  lab: Lab10
+  discussion: Disc10
+  homework: HW7 Due, Proj2 Released
+  resources: |
+    - [Textbook: Classification](https://www.textbook.ds100.org/ch/17/classification_intro.html)
 
-# - date: 10/18/18
-#   topic: Classification and Logistic Regression I
-#   description: We consider the case in which our response is categorical;
-#     in particular, we focus on the simple case in which the response has two
-#     categories. We begin by using least squares to fit the binary response to
-#     categorical explanatory variables and find that the predictions are
-#     proportions. Next, we consider a more complex model (the linear probability
-#     model) that is linear in quantitative explanatory variables, and we uncover
-#     the limitations of this model. We motivate an alternative model, the
-#     logistic, by examining a local linear fit and matching its shape. We also
-#     draw connections between the logistic and log odds. Lastly, we introduce
-#     an alternative loss function (the Kullback-Leibler divergence) that is
-#     more appropriate for working with probabilities. We derive a representation
-#     of the K-L divergence for binary response variables.
-#   slides: assets/lectures/lec17/17-classification.pptx
-#   resources: |
-#     - [Textbook: Classification](https://www.textbook.ds100.org/ch/17/classification_intro.html)
-#     - [Extra Plots notebook (HTML Version)](assets/lectures/lec17/code/ExtraPlots.html)
-#     - [Logistic Regression Part 1 notebook (HTML Version)](assets/lectures/lec17/code/LogisticRegressionPart1.html)
-#     - [Logistic Regression Part 2 notebook (HTML Version)](assets/lectures/lec17/code/LogisticRegressionPart2.html)
-#     - [Notebook (zip)](assets/lectures/lec17/code.zip)
-#     - [Screencast](https://www.youtube.com/watch?v=CO6WBGTlWQk)
+- date: 4/4/19
+  topic: Classification and Logistic Regression II
 
-# - date: 10/23/18
-#   topic: Classification and Logistic Regression II
-#   description: Continued discussion of material in the previous lecture.
-#   lab: 'Project 1 OH '
-#   discussion: |
-#     - [Disc8](https://github.com/DS-100/fa18/blob/master/disc/disc08/disc08.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc08/disc08-sol.pdf)
-#   slides: assets/lectures/lec18/18-classification_part2.pptx
-#   resources: |
-#     - [Screencast](https://www.youtube.com/watch?v=MMqhh_Xs-24)
+- date: 4/9/19
+  topic: What's Next in Classification
+  lab: Lab11
+  discussion: Disc11
 
+- date: 4/11/19
+  topic: Midterm 2
 
-# - date: 10/25/18
-#   topic: Probability theory, Monte Carlo, Bootstrapping
-#   description: We saw previously that we can study parameter estimators
-#     using theoretical and computational approaches. In this lecture we will
-#     delve deeper into the bootstrap to study the behavior of the empirical
-#     75th percentile as an estimator for its population counterpart. We will
-#     derive the empirical quantile through the optimization of a loss function,
-#     show that the population parameter minimizes the expected loss, bootstrap
-#     the sampling distribution of the empirical 75th percentile, and use the
-#     bootstrapped distribution to provide interval estimates for the population
-#     parameter.
-#   slides: assets/lectures/lec19/19-boostrap-mc.pptx
-#   homework: |
-#     - Proj1 Due, HW4 Released
-#     - [HW4 Solutions](https://github.com/DS-100/fa18/blob/master/hw/hw4/hw4.ipynb)
-#   resources: |
-#     - [Central Limit Theorem notebook](assets/lectures/lec19/central-limit.ipynb)
-#     - [PRNG notebook](assets/lectures/lec19/prngs.ipynb)
-#     - [Restaurant Estimation notebook](assets/lectures/lec19/restaurant-estimation.ipynb)
-#     - [Screencast](https://www.youtube.com/watch?v=GogImv9GrwE)
+- date: 4/16/19
+  topic: Hypothesis Testing I
+  lab: Lab12
+  discussion: Disc12
+  homework: Proj2 Due, Proj3 Released
+  resources: |
+    - [Textbook: Statistical Inference](https://www.textbook.ds100.org/ch/18/hyp_intro.html)
 
-# - date: 10/30/18
-#   topic: Hypothesis Testing I
-#   description: A key step in inference is often answering a question about
-#     the world. We will consider two such questions to varying degrees of
-#     detail. 1) Is there enough evidence to bring someone to trial? 2) Do female
-#     TAs get lower teaching evaluations than male TAs? We use hypothesis testing
-#     to answer these questions. In particular, we examine a collection of
-#     non-parametric hypothesis tests. These powerful procedures build on the
-#     basic idea of random simulation to help quantify the rarity of a particular
-#     phenomenon. In the process of using these procedures we will also touch on
-#     the challenges of false discovery and multiple testing.
-#   lab: |
-#     - Lab9
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab09/lab09_solution.ipynb)
-#   discussion: |
-#     - [Disc9](https://github.com/DS-100/fa18/blob/master/disc/disc09/disc09.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc09/disc09_sol.pdf)
-#   slides: https://docs.google.com/presentation/d/1r7apHpdxTqlBi8oSVe5k45MtcwA_BJ9AvVmaiNBQ15k/edit?usp=sharing
-#   resources: |
-#     - [Textbook: Statistical Inference](https://www.textbook.ds100.org/ch/18/hyp_intro.html)
-#     - [Notebook (ipynb)](assets/lectures/lec20/lec20.ipynb)
-#     - [Notebook (html)](assets/lectures/lec20/lec20.html)
-#     - [Screencast](https://www.youtube.com/watch?v=sBBdooFWTeM)
+- date: 4/18/19
+  topic: Hypothesis Testing II
 
-# - date: 11/1/18
-#   topic: Numerical issues, condition numbers, higher dimensions
-#   description: This is a new lecture for this semester.
-#   resources: |
-#     - [Screencast](https://www.youtube.com/watch?v=0km4NFT605U)
-#     - Notebooks (HTML)
-#       - [KL Divergence](assets/lectures/lec21/KL_Divergence.html)
-#       - [Numerical Chaos](assets/lectures/lec21/21-numerical-chaos.html)
-#       - [Monte Carlo ND](assets/lectures/lec21/MonteCarlo-nd.html)
-#       - [Condition Number](assets/lectures/lec21/condition-number.html)
-#       - [Volumes in ND](assets/lectures/lec21/vols_nd.html)
+- date: 4/23/19
+  topic: Distributed Computing I
+  lab: Lab13
+  discussion: Disc13
 
-# - date: 11/6/18
-#   topic: SQL
-#   description: Much of the important data in the world is stored in
-#     relational database management systems. In this lecture we will introduce
-#     the key concepts in relational databases including the relational data
-#     model, basic schema design, and data independence. We will then begin to
-#     dig into the SQL language for accessing and manipulating relational data.
-#   slides: assets/lectures/lec22/22-sql.pptx
-#   lab: |
-#     - Lab10
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab10/lab10_solution.ipynb)
-#   discussion: |
-#     - [Disc10](https://github.com/DS-100/fa18/blob/master/disc/disc10/disc10.pdf)
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/disc/disc10/disc10_sol.pdf)
-#   resources: |
-#     - [Textbook: SQL](https://www.textbook.ds100.org/ch/09/sql_intro.html)
-#     - [Notebook (ipynb)](assets/lectures/lec22/sql_introduction_part1.ipynb)
-#     - [Notebook (html)](assets/lectures/lec22/sql_introduction_part1.html)
-#     - [Screencast](https://www.youtube.com/watch?v=BSexiBTVj14)
+- date: 4/25/19
+  topic: Distributed Computing II
 
-# - date: 11/8/18
-#   topic: Advanced SQL
-#   description: In this lecture we review more advanced SQL queries including
-#     joins and common table expressions, and we discuss how we can combine
-#     computation in a database with Python.
-#   slides: assets/lectures/lec23/23-advanced-sql.pptx
-#   homework: |
-#     - HW4 Due, HW5 Released
-#     - [HW5 Solutions](https://github.com/DS-100/fa18/blob/master/hw/hw5/hw5.ipynb)
-#   resources: |
-#     - [Notebook (ipynb)](assets/lectures/lec23/sql_introduction_part2.ipynb)
-#     - [Notebook (html)](assets/lectures/lec23/sql_introduction_part2.html)
-#     - [Screencast](https://www.youtube.com/watch?v=7exNl0BOfn0)
+- date: 4/30/19
+  topic: Case Study, Review
+  lab: Lab14
+  discussion: Disc14
+  homework: Proj3 Due, HW8 Released
 
-# - date: 11/13/18
-#   topic: Big Data
-#   description: Data management at the level of big organizations can be
-#     confusing and often relies on many different technologies. In this
-#     lecture we will provide an overview of organizational data management
-#     and introduce some of the key technologies used to store large amounts
-#     of data. We will introduce various data representation techniques for
-#     database design, and we will discuss the tradeoffs between different
-#     methods of enterprise data management.
-#   lab: |
-#     - Lab11
-#     - [Solutions](https://github.com/DS-100/fa18/blob/master/labs/lab11/lab11_solution.ipynb)
-#   discussion: Lab11
-#   slides: assets/lectures/lec24/24-big-data.pdf
-#   resources: |
-#     - [Slides in PPT Format](assets/lectures/lec24/24-big-data.pptx)
-#     - [Spark Demo (HTML)](assets/lectures/lec24/Spark.html)
-#     - [Spark Demo (ipynb)](assets/lectures/lec24/Spark.ipynb)
-#     - [Screencast](https://www.youtube.com/watch?v=EuxDwLlKwMY)
-#   homework: |
-#     - Proj2A Released, Grad Project Released
-#     - [Proj2A Solutions](https://github.com/DS-100/fa18/tree/master/proj/proj2A)
+- date: 5/2/19
+  topic: Conclusion
 
-# - date: 11/15/18
-#   topic: Distributed Computing
-#   description: Distributed computing is the process in which multiple
-#     computers work together to accomplish a computational task. In this
-#     lecture we will discuss various distributed computing methods that we
-#     can use to work with data at scale. In particular, we will introduce
-#     programming with Spark, a parallel execution engine for big data
-#     processing.
-#   slides: https://d1b10bmlvqabco.cloudfront.net/attach/jkopvsyuy7g3u0/hl75y4dig6u38v/joqrs9ol3u7h/20181115__DS100_lecture_on_machine_learning_and_distributed_systems.pdf
-#   resources: |
-#     - [Screencast](https://www.youtube.com/watch?v=GkVfHX-NUdk)
-#     - [Ray Documentation](http://ray.readthedocs.io/en/latest/index.html)
-#     - [Notebook](https://d1b10bmlvqabco.cloudfront.net/attach/jkopvsyuy7g3u0/hl75y4dig6u38v/joqrqhfv1zcj/DS100RayMLlecture.ipynb)
+- date: 5/7/19
+  topic: RRR week
+  homework: HW8 Due
 
-# - date: 11/20/18
-#   topic: A/B Testing
-#   description: It is now commonplace for organizations with websites or mobile
-#     apps to run randomized controlled experiments, or “A/B tests” as they’re
-#     often called in industry. Such experiments provide a reliable way to
-#     determine which product changes lead to the most successful user
-#     interactions. In this lecture we will discuss why randomized experiments
-#     are so important, talk about some of the key design choices that go into
-#     A/B tests, and get a brief introduction to sequential monitoring of
-#     experimental results.
-#   lab: 'Project 2 OH '
-#   discussion: Break
-#   slides: http://www.ds100.org/sp18/assets/lectures/lec28/28-randomized-experiments-ab-testing.pdf
-#   homework: |
-#     - HW6 Released, Proj2B Released
-#     - [HW6 Solutions](https://github.com/DS-100/fa18/blob/master/hw/hw6/hw6.ipynb)
-#     - [Proj2B Solutions](https://github.com/DS-100/fa18/tree/master/proj/proj2B)
-#   resources: |
-#     - [Screencast](https://youtu.be/gtrz_uPJ-fE)
-#     - [Demo Notebook (HTML)](http://www.ds100.org/sp18/assets/lectures/lec28/sequential-experiments-demo.html)
+- date: 5/9/19
+  topic: RRR week
 
-# - date: 11/22/18
-#   topic: Thanksgiving Break
-#   description: Enjoy your break!
+- date: 5/14/19
 
-# - date: 11/27/18
-#   topic: Data Commons
-#   description: There will be a guest lecturer on this day.
-#   slides: https://docs.google.com/presentation/d/1_kbcc_lMLdjD85q84jrlJfTUuHRCXAvc5GYXFheXsZQ/edit?usp=sharing
-#   lab: |
-#     - Lab12
-#     - [Solutions](https://colab.research.google.com/drive/1KyksSuyGkOJJSION5_hbkHyuzaBRgkJv)
-#   discussion: Lab12
-#   homework: HW5 Due
-#   resources: |
-#     - [Screencast](https://www.youtube.com/watch?v=IB_qzPUVPus)
-
-# - date: 11/29/18
-#   topic: Conclusion
-#   description: This is the last lecture.
-#   slides: https://docs.google.com/presentation/d/1hduN1NoV0CQWvuvFL0Grv6MGYnors4zZ68Xxe91U3Dw/edit?usp=sharing
-#   homework: Proj2A Due
-#   resources: |
-#     - [Screencast](https://www.youtube.com/watch?v=5izTC0rlqzc)
-
-# - date: 12/4/18
-#   topic: RRR week
-#   description: This review lecture goes over material in the second half
-#     of the course.
-#   slides: https://docs.google.com/presentation/d/1VTPegzi0qoM83-_2X_BL1r8jHnreC4f4VKBwNdAx0ZA/edit?usp=sharing
-#   homework: Proj2B Due
-#   resources: |
-#     - [Screencast](https://www.youtube.com/playlist?list=PLNSdoiHk6ujg9IGlEdn51sTKuc7ibDL0V)
-
-# - date: 12/6/18
-#   topic: RRR week
-#   description: This review lecture goes over problems in the Spring 2018 Final.
-#   homework: HW6 Due, Grad Project Due
-#   resources: |
-#     - [Screencast](https://www.youtube.com/playlist?list=PLQCcNQgUcDfrBO7dpL-Pv6e0LYGeqsHKr)
-
-# - date: 12/11/18
-
-# - date: 12/13/18
-#   topic: Final Exam (11:30am-2:30pm)
+- date: 5/16/19
+  topic: Final Exam (11:30am-2:30pm)
