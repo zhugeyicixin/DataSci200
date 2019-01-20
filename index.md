@@ -64,6 +64,6 @@ While we are working to make this class widely accessible we currently require t
 
 {% include instructor_entries.html %}
 
-## (An incomplete list of) TAs
+## TAs
 
 {% include staff_entries.html %}

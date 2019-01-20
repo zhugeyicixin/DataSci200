@@ -20,7 +20,7 @@
   image: assets/images/staff_pics/janaki_vivrekar.jpeg
   name: Janaki Vivrekar
 - email: jinkyu.kim@berkeley.edu
-  image: assets/images/staff_pics/jinkyu_kim.jpeg
+  image: assets/images/staff_pics/jinkyu_kim.jpg
   name: Jinkyu Kim
 - email: junseopark@berkeley.edu
   image: assets/images/staff_pics/junseo_park.png
@@ -28,6 +28,9 @@
 - email: manana.hakobyan@berkeley.edu
   image: assets/images/staff_pics/manana_hakyoban.jpg
   name: Manana Hakobyan
+- email: murphy2122@berkeley.edu
+  image: assets/images/staff_pics/missing.jpg
+  name: Maxwell Murphy
 - email: neilshah430@berkeley.edu
   image: assets/images/staff_pics/neil_shah.JPG
   name: Neil Shah

@@ -31,7 +31,7 @@
 /******************************************************************************
  * [1] Variables
  *****************************************************************************/
-$content-max-width: 700px;
+$content-max-width: 900px;
 $tablet-up: 45rem;
 
 $data-blue: #003A70;
@@ -96,7 +96,7 @@ ul {
 .content {
   width: 100%;
   max-width: $content-max-width;
-  flex-basis: 75%;
+  flex-basis: 95%;
 
   margin: auto;
   padding: 0 1.5rem;
@@ -179,8 +179,8 @@ ul {
 }
 
     .staff__item {
-      flex-basis: 15rem;
-      margin-bottom: 1rem;
+      flex-basis: 10rem;
+      margin-bottom: 4rem;
 
       a {
         font-size: 18px;
