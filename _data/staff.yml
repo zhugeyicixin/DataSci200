@@ -1,60 +1,152 @@
-- email: allenshen5@berkeley.edu
+- discussion_info:
+  - 'Disc: 2 - 3 (Dwinelle 251)'
+  - 'Disc: 3 - 4 (Dwinelle 255)'
+  email: allenshen5@berkeley.edu
   image: assets/images/staff_pics/allen_shen.jpg
+  lab_info:
+  - 'Lab: 9 - 10 (Evans 458)'
+  - 'Lab: 10 - 11 (Evans 458)'
   name: Allen Shen
-- email: amandhar@berkeley.edu
+- discussion_info:
+  - 'Disc: 1 - 2 (Etch 3105)'
+  - 'Disc: 2 - 3 (Etch 3105)'
+  email: amandhar@berkeley.edu
   image: assets/images/staff_pics/aman_dhar.jpg
+  lab_info:
+  - 'Lab: 11 - 12 (Evans 458)'
+  - 'Lab: 12 - 1 (Evans 458)'
   name: Aman Dhar
-- email: ananth.agarwal@berkeley.edu
+- discussion_info:
+  - 'Disc: 12 - 1 (Dwinelle 242)'
+  email: ananth.agarwal@berkeley.edu
   image: assets/images/staff_pics/ananth_agarwal.jpeg
+  lab_info:
+  - 'Lab: 4 - 5 (Evans 458)'
   name: Ananth Agarwal
-- email: ashleychien@berkeley.edu
+- discussion_info:
+  - 'Disc: 4 - 5 (Dwinelle 243)'
+  email: ashleychien@berkeley.edu
   image: assets/images/staff_pics/ashleyhchien.png
+  lab_info:
+  - 'Lab: 9 - 10 (Evans B6)'
   name: Ashley Chien
-- email: daniel.zhu@berkeley.edu
+- discussion_info:
+  - 'Disc: 12 - 1 (Latimer 105)'
+  email: daniel.zhu@berkeley.edu
   image: assets/images/staff_pics/daniel_zhu.jpg
+  lab_info:
+  - 'Lab: 10 - 11 (Cory 105)'
   name: Daniel Zhu
-- email: hatim.ezbakhe@berkeley.edu
+- discussion_info:
+  - 'Disc: 2 - 3 (Dwinelle 243)'
+  email: hatim.ezbakhe@berkeley.edu
   image: assets/images/staff_pics/hatim_ezbakhe.jpg
+  lab_info:
+  - 'Lab: 3 - 4 (Evans 458)'
   name: Hatim Ezbakhe
-- email: janaki.vivrekar@berkeley.edu
+- discussion_info:
+  - 'Disc: 2 - 3 (Wheeler 200)'
+  email: janaki.vivrekar@berkeley.edu
   image: assets/images/staff_pics/janaki_vivrekar.jpeg
+  lab_info:
+  - 'Lab: 4 - 5 (Evans B6)'
   name: Janaki Vivrekar
-- email: jinkyu.kim@berkeley.edu
+- discussion_info:
+  - 'Disc: 5 - 6 (Evans 9)'
+  email: jinkyu.kim@berkeley.edu
   image: assets/images/staff_pics/jinkyu_kim.jpg
+  lab_info:
+  - 'Lab: 3 - 4 (Cory 105)'
   name: Jinkyu Kim
-- email: junseopark@berkeley.edu
+- discussion_info:
+  - 'Disc: 11 - 12 (Etch 3109)'
+  email: junseopark@berkeley.edu
   image: assets/images/staff_pics/junseo_park.png
+  lab_info:
+  - 'Lab: 2 - 3 (Evans B6)'
   name: Junseo Park
-- email: manana.hakobyan@berkeley.edu
+- discussion_info:
+  - 'Disc: 11 - 12 (Cory 289)'
+  email: manana.hakobyan@berkeley.edu
   image: assets/images/staff_pics/manana_hakyoban.jpg
+  lab_info:
+  - 'Lab: 10 - 11 (Evans B6)'
   name: Manana Hakobyan
-- email: murphy2122@berkeley.edu
+- discussion_info:
+  - 'Disc: 10 - 11 (GPB 103)'
+  email: murphy2122@berkeley.edu
   image: assets/images/staff_pics/missing.jpg
+  lab_info:
+  - 'Lab: 2 - 3 (Cory 105)'
   name: Maxwell Murphy
-- email: neilshah430@berkeley.edu
+- discussion_info:
+  - 'Disc: 10 - 11 (Etch 3113)'
+  email: neilshah430@berkeley.edu
   image: assets/images/staff_pics/neil_shah.JPG
+  lab_info:
+  - 'Lab: 10 - 11 (SDH 254)'
   name: Neil Shah
-- email: philippe_boileau@berkeley.edu
+- discussion_info:
+  - 'Disc: 1 - 2 (Evans 9)'
+  - 'Disc: 2 - 3 (Latimer 105)'
+  email: philippe_boileau@berkeley.edu
   image: assets/images/staff_pics/philippe_boileau.jpg
+  lab_info:
+  - 'Lab: 11 - 12 (Cory 105)'
+  - 'Lab: 12 - 1 (Cory 105)'
   name: Philippe Boileau
-- email: samirnaqvi@berkeley.edu
+- discussion_info:
+  - 'Disc: 3 - 4 (Dwinelle 242)'
+  email: samirnaqvi@berkeley.edu
   image: assets/images/staff_pics/samirnaqvi.jpg
+  lab_info:
+  - 'Lab: 11 - 12 (Evans B6)'
   name: Samir Naqvi
-- email: schaganty@berkeley.edu
+- discussion_info:
+  - 'Disc: 11 - 12 (Etch 3113)'
+  email: schaganty@berkeley.edu
   image: assets/images/staff_pics/sasank_chaganty.jpg
+  lab_info:
+  - 'Lab: 3 - 4 (Evans B6)'
   name: Sasank Chaganty
-- email: sona.jeswani@berkeley.edu
+- discussion_info:
+  - 'Disc: 10 - 11 (Etch 3111)'
+  - 'Disc: 11 - 12 (Etch 3111)'
+  email: sona.jeswani@berkeley.edu
   image: assets/images/staff_pics/shrishti_jeswani.jpg
+  lab_info:
+  - 'Lab: 1 - 2 (Evans 458)'
+  - 'Lab: 2 - 3 (Evans 458)'
   name: Shrishti (Sona) Jeswani
-- email: xmo@berkeley.edu
+- discussion_info:
+  - 'Disc: 3 - 4 (Latimer 105)'
+  - 'Disc: 4 - 5 (Latimer 105)'
+  email: xmo@berkeley.edu
   image: assets/images/staff_pics/simon_mo.png
+  lab_info:
+  - 'Lab: 12 - 1 (SDH 254)'
+  - 'Lab: 1 - 2 (SDH 254)'
   name: Simon Mo
-- email: sumukhshiv@berkeley.edu
+- discussion_info:
+  - 'Disc: 2 - 3 (Wheeler 220)'
+  email: sumukhshiv@berkeley.edu
   image: assets/images/staff_pics/sumukh_shivakumar.jpg
+  lab_info:
+  - 'Lab: 1 - 2 (Cory 105)'
   name: Sumukh Shivakumar
-- email: suraj.rampure@berkeley.edu
+- discussion_info:
+  - 'Disc: 12 - 1 (Etch 3119)'
+  - 'Disc: 1 - 2 (Etch 3119)'
+  email: suraj.rampure@berkeley.edu
   image: assets/images/staff_pics/suraj_rampure.png
+  lab_info:
+  - 'Lab: 12 - 1 (Evans B6)'
+  - 'Lab: 1 - 2 (Evans B6)'
   name: Suraj Rampure
-- email: lhtonywei@berkeley.edu
+- discussion_info:
+  - 'Disc: 12 - 1 (Dwinelle 130)'
+  email: lhtonywei@berkeley.edu
   image: assets/images/staff_pics/tony_hsu.jpeg
+  lab_info:
+  - 'Lab: 11 - 12 (SDH 254)'
   name: Tony Hsu
