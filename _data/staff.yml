@@ -31,6 +31,13 @@
   - 'Lab: 9 - 10 (Evans B6)'
   name: Ashley Chien
 - discussion_info:
+  - 'TBD'
+  email: crankshaw@eecs.berkeley.edu
+  image: assets/images/staff_pics/dan_crankshaw.jpeg
+  lab_info:
+  - 'TBD'
+  name: Dan Crankshaw
+- discussion_info:
   - 'Disc: 12 - 1 (Latimer 105)'
   email: daniel.zhu@berkeley.edu
   image: assets/images/staff_pics/daniel_zhu.jpg
@@ -75,7 +82,7 @@
 - discussion_info:
   - 'Disc: 10 - 11 (GPB 103)'
   email: murphy2122@berkeley.edu
-  image: assets/images/staff_pics/missing.jpg
+  image: assets/images/staff_pics/max_murphy.jpg
   lab_info:
   - 'Lab: 2 - 3 (Cory 105)'
   name: Maxwell Murphy
