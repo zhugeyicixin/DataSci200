@@ -1,3 +1,6 @@
 [submodule "textbook"]
 	path = textbook
 	url = https://github.com/DS-100/textbook
+[submodule "courseMaterial"]
+	path = courseMaterial
+	url = https://github.com/DS-100/sp19.git
