@@ -6,8 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> print(list(bus_multi_sample))
-          ['JUICE SHOP', 'PEABODY ELEMENTARY SCHOOL', 'THREE BABES BAKESHOP', 'WALGREENS', 'FAT BELLI DELI']
+          >>> all(bus_multi_sample.isin(bus['name']))
+          True
           """,
           'hidden': False,
           'locked': False
