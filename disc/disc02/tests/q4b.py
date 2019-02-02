@@ -1,13 +1,13 @@
 test = {
-  'name': 'q4h',
+  'name': 'q4b',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> all(bus_multi_sample.isin(bus['name']))
-          True
+          >>> q_4b
+          4
           """,
           'hidden': False,
           'locked': False
