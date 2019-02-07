@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> list(fraction_missing_df.columns)
+          >>> sorted(list(fraction_missing_df.columns))
           ['count non null', 'count null', 'fraction null']
           """,
           'hidden': False,
