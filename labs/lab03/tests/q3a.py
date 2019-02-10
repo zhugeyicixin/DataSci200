@@ -1,21 +1,21 @@
 test = {
-  'name': 'q5b',
-  'points': 3,
+  'name': 'q3a',
+  'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> sorted(list(fraction_missing_df.columns))
-          ['count non null', 'count null', 'fraction null']
+          >>> set(calls["Day"]) == {'Friday', 'Monday', 'Saturday', 'Sunday', 'Thursday', 'Tuesday', 'Wednesday'}
+          True
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> fraction_missing_df.index.name
-          'postal_code_5'
+          >>> list(calls["Day"][:5]) == ['Wednesday', 'Wednesday', 'Friday', 'Tuesday', 'Saturday']
+          True
           """,
           'hidden': False,
           'locked': False
