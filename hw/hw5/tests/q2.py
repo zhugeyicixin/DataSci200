@@ -1,14 +1,14 @@
 test = {   'name': 'q2',
     'points': 2,
-    'suites': [   {   'cases': [   {   'code': '>>> isinstance(q2house1, int) '
-                                               '# Make sure your answer is '
-                                               'integer-valued\n'
+    'suites': [   {   'cases': [   {   'code': '>>> isinstance(q2house1, (int, '
+                                               'np.integer)) # Make sure your '
+                                               'answer is integer-valued\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': '>>> isinstance(q2house2, int) '
-                                               '# Make sure your answer is '
-                                               'integer-valued\n'
+                                   {   'code': '>>> isinstance(q2house2, (int, '
+                                               'np.integer)) # Make sure your '
+                                               'answer is integer-valued\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False},
