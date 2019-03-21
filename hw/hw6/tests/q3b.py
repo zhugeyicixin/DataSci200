@@ -5,8 +5,8 @@ test = {   'name': 'q3b',
                                                'True',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': '>>> 181430 <= '
-                                               'y_predicted.mean() <= 181440\n'
+                                   {   'code': '>>> 181492 <= '
+                                               'y_predicted.mean() <= 181512\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False}],
